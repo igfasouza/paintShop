@@ -1,6 +1,5 @@
-This GitHub is just for study proposal.
+This GitHub is just for study proposal.<br />
 This is just my Java code solution for the code challenge.
-
 
 Problem
 
@@ -46,38 +45,33 @@ Limits
 
 Small dataset
 
-C = 100
-1 <= N <= 10
-1 <= M <= 100
+C = 100<br />
+1 <= N <= 10<br />
+1 <= M <= 100<br />
 
 Large dataset
 
-C = 5
-1 <= N <= 2000
-1 <= M <= 2000
+C = 5<br />
+1 <= N <= 2000<br />
+1 <= M <= 2000<br />
 
 The sum of all the T values for the customers in a test case will not exceed 3000.Sample
 
 Input
-2
-5
-3
-1
-2
-1
-1
-2
-1
-1
-1 1
-1 0 2 0
-5 0
-1 0
-1 1
+2<br />
+5<br />
+3<br />
+1 1 1<br />
+2 1 0 2 0<br />
+1 5 0<br />
+1<br />
+2<br />
+1 1 0<br />
+1 1 1<br />
 
 Output
-Case #1: 1 0 0 0 0
-Case #2: IMPOSSIBLE
+Case #1: 1 0 0 0 0<br />
+Case #2: IMPOSSIBLE<br />
 
 In the first case, you must make color #1 matte, to satisfy the first customer. Every other paint type
 can be glossy. The second customer is satisfied by getting color #2 glossy, and the third customer
