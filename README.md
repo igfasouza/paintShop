@@ -1,4 +1,5 @@
 This GitHub is just for study proposal.
+
 This is just my Java code solution for the code challenge.
 
 
@@ -47,13 +48,17 @@ Limits
 Small dataset
 
 C = 100
+
 1 <= N <= 10
+
 1 <= M <= 100
 
 Large dataset
 
 C = 5
+
 1 <= N <= 2000
+
 1 <= M <= 2000
 
 The sum of all the T values for the customers in a test case will not exceed 3000.Sample
