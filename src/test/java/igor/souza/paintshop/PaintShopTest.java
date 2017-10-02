@@ -56,7 +56,7 @@ public class PaintShopTest extends TestCase {
 	@Test
 	public void testMissingNumberOfColors() {
 		try {
-			File file = new File(classLoader.getResource(inputFilesFolder + "missingNumberOfColors_invalid.txt").toURI());
+			File file = new File(classLoader.getResource(inputFilesFolder + "missingNumberOfColors.txt").toURI());
 			paintShop.paintShop(file);
 			fail();
 		} catch (NoSuchElementException e) {
